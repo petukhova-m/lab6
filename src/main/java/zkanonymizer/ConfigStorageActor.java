@@ -18,7 +18,7 @@ public class ConfigStorageActor extends AbstractActor {
     private void saveServerList(ServerList list) {
         data = new ArrayList<>(list.getData());
 
-
+    }
 
         Random rnd = new Random();
 
