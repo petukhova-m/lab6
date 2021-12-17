@@ -21,7 +21,7 @@ import java.util.*;
 
     private void redirect(ServerRequest request) {
 
-        int target = rnd.nextInt(data.size());
+
 
 
 }
