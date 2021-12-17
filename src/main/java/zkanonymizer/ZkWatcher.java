@@ -4,7 +4,7 @@ import akka.actor.ActorRef;
 import org.apache.zookeeper.KeeperException;
 
 
-
+import org.apache.zookeeper.Watcher.Event.*;
 import org.apache.zookeeper.ZooKeeper;
 
 import java.util.ArrayList;
