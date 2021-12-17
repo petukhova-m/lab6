@@ -49,7 +49,7 @@ public class ServerNode extends AllDirectives {
         zoo.create("/servers/s",
                 port.toString().getBytes(),
                 ZooDefs.Ids.OPEN_ACL_UNSAFE ,
-
+                CreateMode.EPHEMERAL_SEQUENTIAL
         );
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
