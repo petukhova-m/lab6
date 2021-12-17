@@ -21,7 +21,7 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 import org.apache.zookeeper.*;
-import scala.concurrent.Future;
+
 
 import java.io.IOException;
 import java.time.Duration;
@@ -76,7 +76,7 @@ public class ServerNode extends AllDirectives {
         return parameter("url", url ->
                     parameter("count", count -> {
                         int counter = Integer.parseInt(count);
-                        final Http http = Http.get(system);
+
                         if (counter == 0) {
                             return completeWithFuture(http.singleRequest(HttpRequest.create(url)));
                         }
