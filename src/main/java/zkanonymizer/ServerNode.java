@@ -57,7 +57,7 @@ import static akka.pattern.PatternsCS.pipe;
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
         routeFlow = instance.createRoute(system).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
-
+                routeFlow,
                 ConnectHttp.toHost("localhost", port),
                 materializer
         );
