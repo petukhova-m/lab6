@@ -61,7 +61,7 @@ public class ServerNode extends AllDirectives {
                 ConnectHttp.toHost("localhost", port),
                 materializer
         );
-        System.out.println(String.format("Server online at http://localhost:%d/\nPress RETURN to stop...", port));
+
         System.in.read();
         binding.thenCompose(ServerBinding::unbind).thenAccept(unbound -> system.terminate());
     }
