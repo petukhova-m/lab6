@@ -8,7 +8,7 @@
 
 
 
-    public Receive createReceive() {
+
 
 
                 .match(ServerList.class, this::saveServerList)
