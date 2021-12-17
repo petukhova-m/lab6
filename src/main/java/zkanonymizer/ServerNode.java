@@ -95,7 +95,7 @@ import static akka.pattern.PatternsCS.pipe;
                                                                             .toCompletableFuture()
                                                                             .join()),
                                                             url,
-                                                            counter - 1
+
 
                                                 )
                                         )
