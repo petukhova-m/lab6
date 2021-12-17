@@ -19,7 +19,7 @@ import akka.actor.AbstractActor;
 
 
 
-    private void redirect(ServerRequest request) {
+
 
         int target = rnd.nextInt(data.size());
 
