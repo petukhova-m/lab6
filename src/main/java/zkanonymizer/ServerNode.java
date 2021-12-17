@@ -73,7 +73,7 @@ import static akka.pattern.PatternsCS.pipe;
     }
 
     private Route get() {
-
+        return parameter("url", url ->
                     parameter("count", count -> {
                         int counter = Integer.parseInt(count);
                         final Http http = Http.get(system);
