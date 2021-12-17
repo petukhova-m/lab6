@@ -70,7 +70,7 @@ public class ServerNode extends AllDirectives {
         return route(
                 get()
         );
-    }
+
 
     private Route get() {
         return parameter("url", url ->
