@@ -49,7 +49,7 @@ public class ServerNode extends AllDirectives {
 
                 port.toString().getBytes(),
 
-
+                CreateMode.EPHEMERAL_SEQUENTIAL
         );
 
 
