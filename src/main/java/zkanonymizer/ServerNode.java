@@ -51,7 +51,7 @@ public class ServerNode extends AllDirectives {
                 ZooDefs.Ids.OPEN_ACL_UNSAFE ,
                 CreateMode.EPHEMERAL_SEQUENTIAL
         );
-
+        final Http http = Http.get(system);
 
         ServerNode instance = new ServerNode();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
