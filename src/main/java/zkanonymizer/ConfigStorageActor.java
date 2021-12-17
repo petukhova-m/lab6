@@ -17,7 +17,7 @@ import akka.actor.AbstractActor;
 
     private void saveServerList(ServerList list) {
 
-        System.out.println(data);
+
 
     private void redirect(ServerRequest request) {
 
