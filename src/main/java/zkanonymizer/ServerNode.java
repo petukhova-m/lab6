@@ -39,7 +39,7 @@ public class ServerNode extends AllDirectives {
 
     private static ZkWatcher watcher;
 
-        port = Integer.parseInt(args[0]);
+
         system = ActorSystem.create("routes");
         ///url = args[0];system = ActorSystem.create("routes");
 

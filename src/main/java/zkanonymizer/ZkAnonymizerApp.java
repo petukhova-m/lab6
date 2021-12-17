@@ -14,7 +14,7 @@ import java.util.List;
 
 
 
-    private static List<ServerNode> serverNodes;
+
 
         serverNodes = new ArrayList<>();
     }
