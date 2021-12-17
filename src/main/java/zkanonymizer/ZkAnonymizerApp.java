@@ -6,7 +6,7 @@ import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
 
-import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 

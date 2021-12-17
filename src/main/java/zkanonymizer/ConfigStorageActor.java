@@ -7,11 +7,11 @@ import java.util.*;
 
 public class ConfigStorageActor extends AbstractActor {
 
-    @Override
+
 
 
                 .match(ServerRequest.class, this::redirect)
-                .match(ServerList.class, this::saveServerList)
+
                 .build();
     }
 
