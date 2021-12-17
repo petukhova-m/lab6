@@ -89,7 +89,7 @@ import static akka.pattern.PatternsCS.pipe;
 
                                                                             .ask(
                                                                                     config,
-
+                                                                                    new ServerRequest(),
                                                                                     Duration.ofMillis(3000)
 
                                                                             .toCompletableFuture()
