@@ -90,7 +90,7 @@ public class ServerNode extends AllDirectives {
                                                                             .ask(
                                                                                     config,
                                                                                     new ServerRequest(),
-                                                                                    Duration.ofMillis(3000)
+
                                                                             )
                                                                             .toCompletableFuture()
                                                                             .join()),
@@ -100,7 +100,7 @@ public class ServerNode extends AllDirectives {
                                                 )
                                         )
                                 );
-                    })
+
         );
     }
 }
