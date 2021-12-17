@@ -90,7 +90,7 @@ public class ServerNode extends AllDirectives {
                                                                             .ask(
                                                                                     config,
 
-
+                                                                                    Duration.ofMillis(3000)
                                                                             )
                                                                             .toCompletableFuture()
                                                                             .join()),
