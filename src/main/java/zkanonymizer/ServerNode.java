@@ -66,7 +66,7 @@ import static akka.pattern.PatternsCS.pipe;
         binding.thenCompose(ServerBinding::unbind).thenAccept(unbound -> system.terminate());
     }
 
-    private Route createRoute(ActorSystem system) {
+
         return route(
                 get()
         );
