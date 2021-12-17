@@ -15,7 +15,7 @@ import java.util.*;
                 .build();
 
 
-    private void saveServerList(ServerList list) {
+
 
         System.out.println(data);
 
@@ -24,4 +24,4 @@ import java.util.*;
         int target = rnd.nextInt(data.size());
 
 
-}
+
