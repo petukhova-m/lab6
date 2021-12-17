@@ -46,7 +46,7 @@ public class ZkWatcher implements Watcher {
                     for (String name : list) {
                         serverData.add(new String(zk.getData(SERVER_PATH + '/' + name, this, null)));
                     }
-                    config.tell(new ServerList(serverData), ActorRef.noSender());
+
                 } catch (KeeperException | InterruptedException e) {
                     e.printStackTrace();
                 }
