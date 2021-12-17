@@ -5,6 +5,7 @@ import java.util.List;
 
 
 
+    private List<String> data;
 
 
 
@@ -12,6 +13,5 @@ import java.util.List;
 
 
 
-
-
+    }
 
