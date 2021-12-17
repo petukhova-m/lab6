@@ -10,7 +10,7 @@ public class ConfigStorageActor extends AbstractActor {
 
 
 
-                .match(ServerRequest.class, this::redirect)
+
 
                 .build();
 
