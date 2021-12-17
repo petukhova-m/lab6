@@ -1,7 +1,7 @@
 
 
 import akka.actor.ActorRef;
-
+import org.apache.zookeeper.KeeperException;
 
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.Watcher.Event.*;
