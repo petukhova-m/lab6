@@ -1,4 +1,4 @@
-
+package zkanonymizer;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
