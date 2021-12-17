@@ -2,7 +2,7 @@
 
 import java.util.HashMap;
 
-
+import java.util.Map;
 
 public class ServerList {
     private List<String> data;
@@ -11,7 +11,7 @@ public class ServerList {
 
     }
 
-    public ServerList(List<String> data) {
+
 
 
 
