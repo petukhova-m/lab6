@@ -68,7 +68,7 @@ import static akka.pattern.PatternsCS.pipe;
 
     private Route createRoute(ActorSystem system) {
         return route(
-
+                get()
         );
     }
 
