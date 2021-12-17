@@ -54,7 +54,7 @@ public class ServerNode extends AllDirectives {
 
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         ServerNode instance = new ServerNode();
-
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
         routeFlow = instance.createRoute(system).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
