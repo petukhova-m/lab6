@@ -1,4 +1,4 @@
-
+package zkanonymizer;
 
 import akka.actor.ActorRef;
 import org.apache.zookeeper.KeeperException;
