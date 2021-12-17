@@ -8,12 +8,12 @@ import java.util.*;
 public class ConfigStorageActor extends AbstractActor {
     private ArrayList<String> data = new ArrayList<>();
 
-    public Receive createReceive() {
+
         return ReceiveBuilder.create()
                 .match(ServerRequest.class, this::redirect)
                 .match(ServerList.class, this::saveServerList)
                 .build();
-    }
+
 
     private void saveServerList(ServerList list) {
 
