@@ -7,7 +7,7 @@ import java.util.*;
 
 
 
-    @Override
+
 
 
                 .match(ServerRequest.class, this::redirect)
@@ -15,7 +15,7 @@ import java.util.*;
                 .build();
 
 
-    private void saveServerList(ServerList list) {
+
 
         System.out.println(data);
 
