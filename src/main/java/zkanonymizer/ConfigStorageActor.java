@@ -1,6 +1,6 @@
 
 
-import akka.actor.AbstractActor;
+
 import akka.japi.pf.ReceiveBuilder;
 
 import java.util.*;
@@ -15,7 +15,7 @@ public class ConfigStorageActor extends AbstractActor {
 
     }
 
-    private void saveServerList(ServerList list) {
+
 
         System.out.println(data);
     }
