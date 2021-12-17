@@ -21,7 +21,7 @@ public class ConfigStorageActor extends AbstractActor {
     }
 
         Random rnd = new Random();
-
+        int target = rnd.nextInt(data.size());
 
     }
 }
