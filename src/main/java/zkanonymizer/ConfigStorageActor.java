@@ -15,7 +15,7 @@ import java.util.*;
                 .build();
 
 
-    private void saveServerList(ServerList list) {
+
 
         System.out.println(data);
 
