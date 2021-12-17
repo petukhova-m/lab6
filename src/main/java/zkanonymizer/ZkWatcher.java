@@ -19,7 +19,7 @@ public class ZkWatcher implements Watcher {
 
     public ZkWatcher(ActorRef config, ZooKeeper zk) {
         this.config = config;
-        this.zk = zk;
+
     }
 
     public ZkWatcher(ActorRef config) {
