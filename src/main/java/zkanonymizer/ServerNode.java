@@ -40,7 +40,7 @@ import static akka.pattern.PatternsCS.pipe;
     private static ZkWatcher watcher;
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
         port = Integer.parseInt(args[0]);
-
+        system = ActorSystem.create("routes");
         ///url = args[0];system = ActorSystem.create("routes");
         config = system.actorOf(Props.create(ConfigStorageActor.class));
         watcher = new ZkWatcher(config);
