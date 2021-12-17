@@ -8,7 +8,7 @@ import akka.actor.AbstractActor;
 public class ConfigStorageActor extends AbstractActor {
     private ArrayList<String> data = new ArrayList<>();
     @Override
-
+    public Receive createReceive() {
 
                 .match(ServerRequest.class, this::redirect)
                 .match(ServerList.class, this::saveServerList)
