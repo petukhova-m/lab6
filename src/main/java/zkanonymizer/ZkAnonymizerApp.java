@@ -18,4 +18,4 @@ public class ZkAnonymizerApp {
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
         serverNodes = new ArrayList<>();
     }
-}
+
