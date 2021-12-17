@@ -43,7 +43,7 @@ public class ZkWatcher implements Watcher {
 
 
                     ArrayList<String> serverData = new ArrayList<>();
-                    for (String name : list) {
+
                         serverData.add(new String(zk.getData(SERVER_PATH + '/' + name, this, null)));
                     }
 
