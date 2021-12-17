@@ -38,7 +38,7 @@ public class ServerNode extends AllDirectives {
 
     private static ActorSystem system;
 
-
+    public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
 
         system = ActorSystem.create("routes");
 
