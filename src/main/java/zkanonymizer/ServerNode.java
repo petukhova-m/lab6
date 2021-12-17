@@ -59,7 +59,7 @@ public class ServerNode extends AllDirectives {
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
 
-
+                materializer
         );
         System.out.println(String.format("Server online at http://localhost:%d/\nPress RETURN to stop...", port));
         System.in.read();
