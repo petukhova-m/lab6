@@ -9,7 +9,7 @@ public class ServerList {
 
     public List<String> getData() {
         return data;
-    }
+
 
     public ServerList(List<String> data) {
         this.data = data;
