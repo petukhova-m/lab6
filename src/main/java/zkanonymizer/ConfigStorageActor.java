@@ -6,7 +6,7 @@
 
 
 
-
+    private ArrayList<String> data = new ArrayList<>();
 
     public Receive createReceive() {
 
