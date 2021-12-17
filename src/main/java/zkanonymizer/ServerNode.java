@@ -34,7 +34,7 @@ import static akka.pattern.PatternsCS.pipe;
 import static akka.actor.TypedActor.context;
 
 public class ServerNode extends AllDirectives {
-    private static ActorRef config;
+
     private static Integer port;
 
     private static ZkWatcher watcher;
@@ -51,7 +51,7 @@ public class ServerNode extends AllDirectives {
                 ZooDefs.Ids.OPEN_ACL_UNSAFE ,
                 CreateMode.EPHEMERAL_SEQUENTIAL
         );
-        final Http http = Http.get(system);
+
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         ServerNode instance = new ServerNode();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;

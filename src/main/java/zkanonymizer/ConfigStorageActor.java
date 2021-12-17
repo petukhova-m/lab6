@@ -18,10 +18,10 @@ public class ConfigStorageActor extends AbstractActor {
 
 
         System.out.println(data);
-
+    }
 
         Random rnd = new Random();
 
         sender().tell(data.get(target), getSelf());
-    }
+
 
