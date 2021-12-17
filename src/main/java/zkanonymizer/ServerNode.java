@@ -87,7 +87,7 @@ import static akka.pattern.PatternsCS.pipe;
                                                     String.format("http://localhost:%d/?url=%s&count=%d",
                                                             Integer.parseInt(
 
-                                                                            .ask(
+
                                                                                     config,
                                                                                     new ServerRequest(),
                                                                                     Duration.ofMillis(3000)
