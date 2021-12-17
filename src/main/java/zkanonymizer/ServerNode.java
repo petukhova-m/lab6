@@ -92,7 +92,7 @@ public class ServerNode extends AllDirectives {
 
                                                                                     Duration.ofMillis(3000)
                                                                             )
-
+                                                                            .toCompletableFuture()
                                                                             .join()),
                                                             url,
                                                             counter - 1
