@@ -15,7 +15,7 @@ public class ConfigStorageActor extends AbstractActor {
 
     }
 
-
+    private void saveServerList(ServerList list) {
 
 
     }
