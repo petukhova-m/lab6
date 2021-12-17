@@ -49,7 +49,7 @@ public class ServerNode extends AllDirectives {
 
                 port.toString().getBytes(),
                 ZooDefs.Ids.OPEN_ACL_UNSAFE ,
-
+                CreateMode.EPHEMERAL_SEQUENTIAL
         );
 
         final ActorMaterializer materializer = ActorMaterializer.create(system);
