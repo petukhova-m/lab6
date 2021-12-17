@@ -31,7 +31,7 @@ public class ZkWatcher implements Watcher {
     }
 
     @Override
-    public void process(WatchedEvent event) {
+
         if (event == null) {
             return;
         }
