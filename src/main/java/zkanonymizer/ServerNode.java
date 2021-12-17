@@ -33,7 +33,7 @@ import java.util.concurrent.ExecutionException;
 import static akka.pattern.PatternsCS.pipe;
 
 
-public class ServerNode extends AllDirectives {
+
     private static ActorRef config;
     private static Integer port;
 
