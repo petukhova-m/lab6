@@ -76,7 +76,7 @@ import static akka.pattern.PatternsCS.pipe;
         return parameter("url", url ->
                     parameter("count", count -> {
                         int counter = Integer.parseInt(count);
-
+                        final Http http = Http.get(system);
                         if (counter == 0) {
                             return completeWithFuture(http.singleRequest(HttpRequest.create(url)));
 
