@@ -28,7 +28,7 @@ public class ZkWatcher implements Watcher {
 
     public void setZk(ZooKeeper zk) {
         this.zk = zk;
-
+    }
 
     @Override
     public void process(WatchedEvent event) {
