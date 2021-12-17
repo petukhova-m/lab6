@@ -35,7 +35,7 @@ public class ZkWatcher implements Watcher {
 
             return;
         }
-        KeeperState keeperState = event.getState();
+
         EventType eventType = event.getType();
 
 
