@@ -43,7 +43,7 @@ public class ZkWatcher implements Watcher {
 
 
 
-
+                    for (String name : list) {
 
 
 
