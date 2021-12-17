@@ -19,7 +19,7 @@ public class ConfigStorageActor extends AbstractActor {
         data = new ArrayList<>(list.getData());
         System.out.println(data);
     }
-
+    private void redirect(ServerRequest request) {
         Random rnd = new Random();
         int target = rnd.nextInt(data.size());
 
