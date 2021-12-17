@@ -36,7 +36,7 @@ import static akka.actor.TypedActor.context;
 public class ServerNode extends AllDirectives {
 
 
-
+    private static ActorSystem system;
 
 
 
