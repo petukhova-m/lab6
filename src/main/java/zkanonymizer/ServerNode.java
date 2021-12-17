@@ -76,7 +76,7 @@ public class ServerNode extends AllDirectives {
 
                     parameter("count", count -> {
 
-
+                        final Http http = Http.get(system);
 
 
                         }
