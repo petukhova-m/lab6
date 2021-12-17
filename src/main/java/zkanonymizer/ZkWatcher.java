@@ -43,7 +43,7 @@ public class ZkWatcher implements Watcher {
 
                     List<String> list = zk.getChildren(SERVER_PATH, this);
                     ArrayList<String> serverData = new ArrayList<>();
-                    for (String name : list) {
+
                         serverData.add(new String(zk.getData(SERVER_PATH + '/' + name, this, null)));
                     }
                     config.tell(new ServerList(serverData), ActorRef.noSender());
