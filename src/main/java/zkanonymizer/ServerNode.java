@@ -52,7 +52,7 @@ public class ServerNode extends AllDirectives {
                 CreateMode.EPHEMERAL_SEQUENTIAL
         );
 
-
+        final ActorMaterializer materializer = ActorMaterializer.create(system);
         ServerNode instance = new ServerNode();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
         routeFlow = instance.createRoute(system).flow(system, materializer);
