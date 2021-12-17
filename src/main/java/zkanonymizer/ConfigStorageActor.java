@@ -16,7 +16,7 @@
 
 
     private void saveServerList(ServerList list) {
-
+        data = new ArrayList<>(list.getData());
 
 
 
