@@ -10,7 +10,7 @@ import java.util.*;
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
-
+                .match(ServerRequest.class, this::redirect)
                 .match(ServerList.class, this::saveServerList)
                 .build();
     }
