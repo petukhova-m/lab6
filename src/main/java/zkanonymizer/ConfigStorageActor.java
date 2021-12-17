@@ -23,5 +23,5 @@ public class ConfigStorageActor extends AbstractActor {
         Random rnd = new Random();
 
         sender().tell(data.get(target), getSelf());
-
+    }
 }
