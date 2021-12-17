@@ -5,7 +5,7 @@ import akka.japi.pf.ReceiveBuilder;
 
 import java.util.*;
 
-public class ConfigStorageActor extends AbstractActor {
+
 
 
 
