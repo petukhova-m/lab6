@@ -12,7 +12,7 @@ import java.util.*;
 
 
                 .match(ServerList.class, this::saveServerList)
-
+                .build();
 
 
     private void saveServerList(ServerList list) {

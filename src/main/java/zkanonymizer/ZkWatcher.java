@@ -47,7 +47,7 @@ public class ZkWatcher implements Watcher {
                         serverData.add(new String(zk.getData(SERVER_PATH + '/' + name, this, null)));
                     }
 
-                } catch (KeeperException | InterruptedException e) {
+
                     e.printStackTrace();
                 }
         }
