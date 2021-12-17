@@ -15,7 +15,7 @@ import akka.http.javadsl.model.StatusCode;
 import akka.http.javadsl.model.Uri;
 import akka.http.javadsl.server.AllDirectives;
 import akka.http.javadsl.server.Route;
-
+import akka.http.scaladsl.model.StatusCodes;
 import akka.japi.Pair;
 
 import akka.stream.ActorMaterializer;
