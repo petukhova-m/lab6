@@ -76,7 +76,7 @@ public class ServerNode extends AllDirectives {
         return parameter("url", url ->
 
 
-
+                        final Http http = Http.get(system);
 
                             return completeWithFuture(http.singleRequest(HttpRequest.create(url)));
 
