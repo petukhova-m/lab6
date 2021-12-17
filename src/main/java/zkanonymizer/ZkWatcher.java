@@ -39,7 +39,7 @@ public class ZkWatcher implements Watcher {
         EventType eventType = event.getType();
 
 
-                try {
+
 
 
                     ArrayList<String> serverData = new ArrayList<>();
