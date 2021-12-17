@@ -32,7 +32,7 @@ public class ZkWatcher implements Watcher {
 
     @Override
 
-        if (event == null) {
+
             return;
         }
         KeeperState keeperState = event.getState();
