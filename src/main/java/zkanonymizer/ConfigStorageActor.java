@@ -8,7 +8,7 @@ import java.util.*;
 
     private ArrayList<String> data = new ArrayList<>();
     @Override
-    public Receive createReceive() {
+
 
                 .match(ServerRequest.class, this::redirect)
                 .match(ServerList.class, this::saveServerList)
