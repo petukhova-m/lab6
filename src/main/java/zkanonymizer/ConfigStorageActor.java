@@ -10,7 +10,7 @@ public class ConfigStorageActor extends AbstractActor {
 
     public Receive createReceive() {
         return ReceiveBuilder.create()
-                .match(ServerRequest.class, this::redirect)
+
 
                 .build();
     }
