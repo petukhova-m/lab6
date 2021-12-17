@@ -13,5 +13,5 @@ import java.util.Map;
 
     public ServerList(List<String> data) {
         this.data = data;
-
+    }
 }
