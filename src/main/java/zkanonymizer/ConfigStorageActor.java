@@ -11,7 +11,7 @@ import java.util.*;
     public Receive createReceive() {
 
                 .match(ServerRequest.class, this::redirect)
-
+                .match(ServerList.class, this::saveServerList)
                 .build();
 
 
