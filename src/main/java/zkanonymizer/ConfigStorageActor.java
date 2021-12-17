@@ -15,7 +15,7 @@ public class ConfigStorageActor extends AbstractActor {
 
     }
 
-
+    private void saveServerList(ServerList list) {
 
         System.out.println(data);
 
@@ -24,4 +24,4 @@ public class ConfigStorageActor extends AbstractActor {
         int target = rnd.nextInt(data.size());
 
     }
-
+}
