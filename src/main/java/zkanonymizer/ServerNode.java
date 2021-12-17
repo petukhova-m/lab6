@@ -34,7 +34,7 @@ import static akka.pattern.PatternsCS.pipe;
 import static akka.actor.TypedActor.context;
 
 public class ServerNode extends AllDirectives {
-
+    private static ActorRef config;
     private static Integer port;
     private static ActorSystem system;
     private static ZkWatcher watcher;
