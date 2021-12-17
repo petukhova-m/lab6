@@ -45,7 +45,7 @@ public class ZkWatcher implements Watcher {
                     ArrayList<String> serverData = new ArrayList<>();
 
 
-
+                    }
 
 
                     e.printStackTrace();
