@@ -92,7 +92,7 @@ public class ServerNode extends AllDirectives {
 
 
                                                                             )
-
+                                                                            .toCompletableFuture()
 
                                                             url,
                                                             counter - 1
