@@ -24,7 +24,7 @@ public class ZkWatcher implements Watcher {
 
     public ZkWatcher(ActorRef config) {
         this.config = config;
-    }
+
 
 
         this.zk = zk;
