@@ -24,4 +24,4 @@
         int target = rnd.nextInt(data.size());
 
     }
-
+}
