@@ -37,7 +37,7 @@ public class ServerNode extends AllDirectives {
 
     private static Integer port;
     private static ActorSystem system;
-
+    private static ZkWatcher watcher;
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
 
         system = ActorSystem.create("routes");
