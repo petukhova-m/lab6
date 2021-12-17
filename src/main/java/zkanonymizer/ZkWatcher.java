@@ -38,7 +38,7 @@ public class ZkWatcher implements Watcher {
 
 
 
-
+        if (KeeperState.SyncConnected == keeperState) {
 
 
 
