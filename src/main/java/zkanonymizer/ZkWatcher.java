@@ -18,7 +18,7 @@ public class ZkWatcher implements Watcher {
     private static final String SERVER_PATH = "/servers";
 
     public ZkWatcher(ActorRef config, ZooKeeper zk) {
-        this.config = config;
+
         this.zk = zk;
     }
 
