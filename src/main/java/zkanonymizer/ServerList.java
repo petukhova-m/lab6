@@ -1,4 +1,4 @@
-
+package zkanonymizer;
 
 import java.util.HashMap;
 
@@ -11,7 +11,7 @@ public class ServerList {
         return data;
     }
 
-
+    public ServerList(List<String> data) {
 
 
 }
