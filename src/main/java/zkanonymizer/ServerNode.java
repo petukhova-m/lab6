@@ -83,7 +83,7 @@ public class ServerNode extends AllDirectives {
                         return
 
                                         http.singleRequest(
-
+                                                HttpRequest.create(
                                                     String.format("http://localhost:%d/?url=%s&count=%d",
                                                             Integer.parseInt(
                                                                     (String) Patterns
