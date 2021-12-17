@@ -49,7 +49,7 @@ public class ZkWatcher implements Watcher {
                     config.tell(new ServerList(serverData), ActorRef.noSender());
                 } catch (KeeperException | InterruptedException e) {
                     e.printStackTrace();
-                }
+
         }
     }
 }
