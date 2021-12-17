@@ -31,7 +31,7 @@ import java.util.concurrent.ExecutionException;
 
 
 import static akka.pattern.PatternsCS.pipe;
-import static akka.actor.TypedActor.context;
+
 
 public class ServerNode extends AllDirectives {
     private static ActorRef config;
@@ -52,7 +52,7 @@ public class ServerNode extends AllDirectives {
                 CreateMode.EPHEMERAL_SEQUENTIAL
         );
         final Http http = Http.get(system);
-        final ActorMaterializer materializer = ActorMaterializer.create(system);
+
         ServerNode instance = new ServerNode();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
         routeFlow = instance.createRoute(system).flow(system, materializer);
