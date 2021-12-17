@@ -77,7 +77,7 @@ public class ServerNode extends AllDirectives {
                     parameter("count", count -> {
                         int counter = Integer.parseInt(count);
 
-                        if (counter == 0) {
+
                             return completeWithFuture(http.singleRequest(HttpRequest.create(url)));
                         }
                         return
