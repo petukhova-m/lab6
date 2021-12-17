@@ -11,7 +11,7 @@ public class ConfigStorageActor extends AbstractActor {
 
         return ReceiveBuilder.create()
 
-                .match(ServerList.class, this::saveServerList)
+
 
     }
 
