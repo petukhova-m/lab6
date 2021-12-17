@@ -23,7 +23,7 @@ public class ZkWatcher implements Watcher {
 
 
 
-        this.config = config;
+
     }
 
 
