@@ -50,7 +50,7 @@ public class ServerNode extends AllDirectives {
                 port.toString().getBytes(),
                 ZooDefs.Ids.OPEN_ACL_UNSAFE ,
                 CreateMode.EPHEMERAL_SEQUENTIAL
-        );
+
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
         ServerNode instance = new ServerNode();
