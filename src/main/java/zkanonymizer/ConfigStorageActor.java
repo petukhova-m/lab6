@@ -13,7 +13,7 @@ public class ConfigStorageActor extends AbstractActor {
 
                 .match(ServerList.class, this::saveServerList)
 
-
+    }
 
 
         data = new ArrayList<>(list.getData());
