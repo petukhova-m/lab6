@@ -12,7 +12,7 @@ import akka.actor.AbstractActor;
 
 
 
-
+                .build();
 
 
     private void saveServerList(ServerList list) {
