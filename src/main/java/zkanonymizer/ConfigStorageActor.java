@@ -18,7 +18,7 @@ public class ConfigStorageActor extends AbstractActor {
 
 
         System.out.println(data);
-    }
+
 
         Random rnd = new Random();
 
