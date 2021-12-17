@@ -45,7 +45,7 @@ public class ServerNode extends AllDirectives {
 
         watcher = new ZkWatcher(config);
         ZooKeeper zoo = new ZooKeeper("127.0.0.1:2181", 3000, watcher);
-
+            watcher.setZk(zoo);
         zoo.create("/servers/s",
                 port.toString().getBytes(),
 
