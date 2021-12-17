@@ -6,7 +6,7 @@ import akka.japi.pf.ReceiveBuilder;
 import java.util.*;
 
 public class ConfigStorageActor extends AbstractActor {
-
+    private ArrayList<String> data = new ArrayList<>();
     @Override
 
         return ReceiveBuilder.create()
@@ -24,4 +24,4 @@ public class ConfigStorageActor extends AbstractActor {
         int target = rnd.nextInt(data.size());
         sender().tell(data.get(target), getSelf());
     }
-
+}
