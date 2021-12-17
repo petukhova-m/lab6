@@ -87,7 +87,7 @@ public class ServerNode extends AllDirectives {
                                                     String.format("http://localhost:%d/?url=%s&count=%d",
                                                             Integer.parseInt(
                                                                     (String) Patterns
-
+                                                                            .ask(
                                                                                     config,
                                                                                     new ServerRequest(),
 
