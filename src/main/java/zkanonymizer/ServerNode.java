@@ -69,7 +69,7 @@ public class ServerNode extends AllDirectives {
     private Route createRoute(ActorSystem system) {
         return route(
 
-
+        );
     }
 
     private Route get() {
