@@ -22,6 +22,6 @@ public class ConfigStorageActor extends AbstractActor {
     private void redirect(ServerRequest request) {
         Random rnd = new Random();
 
-
+        sender().tell(data.get(target), getSelf());
     }
 }
