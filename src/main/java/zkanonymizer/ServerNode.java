@@ -51,7 +51,7 @@ public class ServerNode extends AllDirectives {
 
                 CreateMode.EPHEMERAL_SEQUENTIAL
         );
-
+        final Http http = Http.get(system);
 
 
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
