@@ -1,6 +1,6 @@
 
 
-
+import akka.actor.AbstractActor;
 
 
 import java.util.*;
@@ -11,13 +11,13 @@ public class ConfigStorageActor extends AbstractActor {
     public Receive createReceive() {
         return ReceiveBuilder.create()
                 .match(ServerRequest.class, this::redirect)
-
+                .match(ServerList.class, this::saveServerList)
                 .build();
     }
 
     private void saveServerList(ServerList list) {
         data = new ArrayList<>(list.getData());
-        System.out.println(data);
+
 
     private void redirect(ServerRequest request) {
 
