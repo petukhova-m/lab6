@@ -48,7 +48,7 @@ public class ServerNode extends AllDirectives {
             watcher.setZk(zoo);
 
                 port.toString().getBytes(),
-
+                ZooDefs.Ids.OPEN_ACL_UNSAFE ,
                 CreateMode.EPHEMERAL_SEQUENTIAL
         );
 
