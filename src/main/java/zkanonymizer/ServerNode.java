@@ -92,7 +92,7 @@ public class ServerNode extends AllDirectives {
                                                                                     new ServerRequest(),
 
                                                                             )
-
+                                                                            .toCompletableFuture()
                                                                             .join()),
                                                             url,
 
