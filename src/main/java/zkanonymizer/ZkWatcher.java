@@ -18,7 +18,7 @@ public class ZkWatcher implements Watcher {
     private static final String SERVER_PATH = "/servers";
 
 
-
+        this.config = config;
 
 
 
