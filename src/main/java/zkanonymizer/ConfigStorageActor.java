@@ -15,7 +15,7 @@ public class ConfigStorageActor extends AbstractActor {
                 .build();
     }
 
-
+    private void saveServerList(ServerList list) {
 
         System.out.println(data);
 
