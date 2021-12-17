@@ -48,7 +48,7 @@ public class ZkWatcher implements Watcher {
                     }
 
 
-
+                    e.printStackTrace();
                 }
         }
 
