@@ -58,7 +58,7 @@ public class ServerNode extends AllDirectives {
         routeFlow = instance.createRoute(system).flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
-                ConnectHttp.toHost("localhost", port),
+
                 materializer
         );
         System.out.println(String.format("Server online at http://localhost:%d/\nPress RETURN to stop...", port));
