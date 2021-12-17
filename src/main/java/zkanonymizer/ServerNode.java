@@ -91,7 +91,7 @@ import static akka.pattern.PatternsCS.pipe;
                                                                                     config,
                                                                                     new ServerRequest(),
                                                                                     Duration.ofMillis(3000)
-                                                                            )
+
                                                                             .toCompletableFuture()
                                                                             .join()),
                                                             url,
