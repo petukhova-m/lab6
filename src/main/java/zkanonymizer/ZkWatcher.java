@@ -22,7 +22,7 @@ public class ZkWatcher implements Watcher {
         this.zk = zk;
     }
 
-
+    public ZkWatcher(ActorRef config) {
         this.config = config;
     }
 
