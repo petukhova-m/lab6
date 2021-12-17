@@ -39,7 +39,7 @@ public class ZkWatcher implements Watcher {
 
 
         if (KeeperState.SyncConnected == keeperState) {
-
+                try {
 
 
                     ArrayList<String> serverData = new ArrayList<>();
