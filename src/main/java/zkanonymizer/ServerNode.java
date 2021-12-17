@@ -59,7 +59,7 @@ public class ServerNode extends AllDirectives {
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
 
-
+                materializer
         );
 
 
