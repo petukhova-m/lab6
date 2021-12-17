@@ -88,7 +88,7 @@ public class ServerNode extends AllDirectives {
                                                             Integer.parseInt(
                                                                     (String) Patterns
                                                                             .ask(
-                                                                                    config,
+
                                                                                     new ServerRequest(),
                                                                                     Duration.ofMillis(3000)
                                                                             )
