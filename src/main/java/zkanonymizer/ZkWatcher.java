@@ -33,7 +33,7 @@ public class ZkWatcher implements Watcher {
 
 
 
-            return;
+
 
 
         EventType eventType = event.getType();
