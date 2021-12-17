@@ -19,7 +19,7 @@ public class ConfigStorageActor extends AbstractActor {
 
         System.out.println(data);
 
-
+    private void redirect(ServerRequest request) {
 
         int target = rnd.nextInt(data.size());
 
