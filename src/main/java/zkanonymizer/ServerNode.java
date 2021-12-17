@@ -43,7 +43,7 @@ public class ServerNode extends AllDirectives {
         system = ActorSystem.create("routes");
         ///url = args[0];system = ActorSystem.create("routes");
         config = system.actorOf(Props.create(ConfigStorageActor.class));
-
+        watcher = new ZkWatcher(config);
         ZooKeeper zoo = new ZooKeeper("127.0.0.1:2181", 3000, watcher);
             watcher.setZk(zoo);
         zoo.create("/servers/s",
