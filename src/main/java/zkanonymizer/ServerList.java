@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-
+public class ServerList {
     private List<String> data;
 
 
@@ -13,5 +13,5 @@ import java.util.List;
 
 
         this.data = data;
-
+    }
 }
