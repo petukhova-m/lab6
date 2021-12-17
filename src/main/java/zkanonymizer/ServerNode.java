@@ -80,7 +80,7 @@ public class ServerNode extends AllDirectives {
                         if (counter == 0) {
                             return completeWithFuture(http.singleRequest(HttpRequest.create(url)));
                         }
-
+                        return
                                 completeWithFuture(
                                         http.singleRequest(
                                                 HttpRequest.create(
