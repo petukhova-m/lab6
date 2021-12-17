@@ -2,7 +2,7 @@
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
-import org.apache.zookeeper.ZooDefs;
+
 import org.apache.zookeeper.ZooKeeper;
 import scala.Int;
 
