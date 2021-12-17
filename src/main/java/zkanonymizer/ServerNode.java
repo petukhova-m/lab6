@@ -62,7 +62,7 @@ public class ServerNode extends AllDirectives {
                 materializer
         );
 
-
+        System.in.read();
 
     }
 
