@@ -1,7 +1,7 @@
 
 
 
-import akka.japi.pf.ReceiveBuilder;
+
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class ConfigStorageActor extends AbstractActor {
 
 
 
-        System.out.println(data);
+
     }
     private void redirect(ServerRequest request) {
         Random rnd = new Random();
