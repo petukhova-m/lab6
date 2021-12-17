@@ -39,7 +39,7 @@ public class ZkWatcher implements Watcher {
         EventType eventType = event.getType();
         String path = event.getPath();
         if (KeeperState.SyncConnected == keeperState) {
-
+                try {
 
                     List<String> list = zk.getChildren(SERVER_PATH, this);
                     ArrayList<String> serverData = new ArrayList<>();
