@@ -30,7 +30,7 @@ import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 
 
-
+import static akka.pattern.PatternsCS.pipe;
 import static akka.actor.TypedActor.context;
 
 public class ServerNode extends AllDirectives {
