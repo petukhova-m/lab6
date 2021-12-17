@@ -35,7 +35,7 @@ import static akka.pattern.PatternsCS.pipe;
 
 
     private static ActorRef config;
-
+    private static Integer port;
 
     private static ZkWatcher watcher;
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
