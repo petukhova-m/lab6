@@ -59,7 +59,7 @@ import static akka.pattern.PatternsCS.pipe;
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
                 ConnectHttp.toHost("localhost", port),
-
+                materializer
         );
         System.out.println(String.format("Server online at http://localhost:%d/\nPress RETURN to stop...", port));
         System.in.read();
