@@ -89,7 +89,7 @@ public class ServerNode extends AllDirectives {
 
 
                                                                                     config,
-
+                                                                                    new ServerRequest(),
 
                                                                             )
 
