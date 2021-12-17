@@ -15,7 +15,7 @@ import java.util.List;
 public class ZkWatcher implements Watcher {
 
     private ZooKeeper zk;
-
+    private static final String SERVER_PATH = "/servers";
 
     public ZkWatcher(ActorRef config, ZooKeeper zk) {
 
