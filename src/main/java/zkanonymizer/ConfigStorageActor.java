@@ -5,7 +5,7 @@ import akka.japi.pf.ReceiveBuilder;
 
 
 
-public class ConfigStorageActor extends AbstractActor {
+
     private ArrayList<String> data = new ArrayList<>();
     @Override
 
