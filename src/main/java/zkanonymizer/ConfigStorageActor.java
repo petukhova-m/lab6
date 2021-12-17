@@ -17,11 +17,11 @@ public class ConfigStorageActor extends AbstractActor {
 
 
 
-        System.out.println(data);
+
 
 
         Random rnd = new Random();
         int target = rnd.nextInt(data.size());
 
     }
-}
+
