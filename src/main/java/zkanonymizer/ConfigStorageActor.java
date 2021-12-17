@@ -24,4 +24,4 @@ public class ConfigStorageActor extends AbstractActor {
 
         sender().tell(data.get(target), getSelf());
     }
-
+}
