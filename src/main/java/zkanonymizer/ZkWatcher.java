@@ -26,7 +26,7 @@ public class ZkWatcher implements Watcher {
         this.config = config;
     }
 
-    public void setZk(ZooKeeper zk) {
+
         this.zk = zk;
     }
 
