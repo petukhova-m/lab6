@@ -15,7 +15,7 @@ import akka.actor.AbstractActor;
                 .build();
 
 
-    private void saveServerList(ServerList list) {
+
 
         System.out.println(data);
 
