@@ -75,7 +75,7 @@ public class ServerNode extends AllDirectives {
     private Route get() {
 
                     parameter("count", count -> {
-                        int counter = Integer.parseInt(count);
+
                         final Http http = Http.get(system);
 
 
