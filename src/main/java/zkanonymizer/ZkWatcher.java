@@ -36,7 +36,7 @@ public class ZkWatcher implements Watcher {
 
 
 
-
+        EventType eventType = event.getType();
         String path = event.getPath();
         if (KeeperState.SyncConnected == keeperState) {
                 try {
