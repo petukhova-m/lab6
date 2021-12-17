@@ -9,7 +9,7 @@ public class ServerList {
 
 
 
-    }
+
 
 
         this.data = data;
