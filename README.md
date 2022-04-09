@@ -1,1 +1,1 @@
-# lab6
+# Distributed and parallel programs
